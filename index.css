@@ -1,0 +1,51 @@
+/*
+Syntax for CSS
+selector {
+	property: value;
+	property: value;
+}
+*/
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, p {
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+body{
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+footer{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.fa-brands, .fa-globe{
+	font-size: 25px;
+	color: white;
+	/*margin: top right bottom left*/
+	margin: 0 10px 0 10px;
+}
+
+#landing{
+	height: 80vh; 
+	/*vh= view height*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
